@@ -20,15 +20,16 @@ const Feedback = () => (
 				<div className="feedback-gradient" />
 				<div>
 					<h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading=[32px] text-white">
-						Samantha
+						Paul
 					</h4>
 					<p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
-						Founder | Metaversus
+						Founder | Cohering Minds
 					</p>
 					<p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-						“With the development of today's technology, metaverse is very
-						useful for today's work, or can be called web 3.0. by using
-						metaverse you can use it as anything”
+						As groups expand, group coherence fails due to the geometric growth
+						of communication relationships. I believe in connecting computers
+						and people so collectively we act more intelligently than ever
+						before.
 					</p>
 				</div>
 			</motion.div>
@@ -45,11 +46,11 @@ const Feedback = () => (
 					variants={zoomIn(0.4, 1)}
 					className="lg:block hidden absolute -left-[10%] top-[3%]"
 				>
-					<img
+					{/* <img
 						src="/stamp.png"
 						alt="stamp"
 						className="w-[155px] h=[155px object-contain"
-					/>
+					/> */}
 				</motion.div>
 			</motion.div>
 		</motion.div>
