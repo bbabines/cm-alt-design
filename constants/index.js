@@ -1,27 +1,27 @@
 export const exploreWorlds = [
 	{
 		id: "world-1",
-		imgUrl: "/planet-01.png",
+		imgUrl: "/knowledge.jpg",
 		title: "Acquire Knowledge",
 	},
 	{
 		id: "world-2",
-		imgUrl: "/planet-02.png",
+		imgUrl: "/rank.jpg",
 		title: "Rank Ideas",
 	},
 	{
 		id: "world-3",
-		imgUrl: "/planet-03.png",
+		imgUrl: "/search.jpg",
 		title: "Search Insights",
 	},
 	{
 		id: "world-4",
-		imgUrl: "/planet-04.png",
+		imgUrl: "/groups.webp",
 		title: "Form Groups",
 	},
 	{
 		id: "world-5",
-		imgUrl: "/planet-05.png",
+		imgUrl: "/action.jpg",
 		title: "Take Action",
 	},
 ];
@@ -49,19 +49,19 @@ export const newFeatures = [
 
 export const insights = [
 	{
-		imgUrl: "/planet-06.png",
+		imgUrl: "/distill.webp",
 		title: "Distill knowledge into different tiers",
 		subtitle:
 			"Glance at top insights from dense collections of information. Dive deeper into tiers for more context, details, and explanation based on the level of interest you have.",
 	},
 	{
-		imgUrl: "/planet-07.png",
+		imgUrl: "/sort.jpg",
 		title: "Rank, sort, search, filter, and compare",
 		subtitle:
 			"Septate the signal from the noise by ranking insights so the collection of data is easier to navigate. Then search and filter results based on the subject that interest you. Lastly, find the opposite perspectives and try to synthesize a it into a higher level of understanding than you once had.",
 	},
 	{
-		imgUrl: "/planet-08.png",
+		imgUrl: "/past.webp",
 		title: "Look into the results of past ideas",
 		subtitle:
 			"Curious about how past ideas have worked out? Explore each entry of when that idea was attempted and the results. Learn from the past and iterate to a better future",
