@@ -13,6 +13,10 @@ const Navbar = () => {
 		setOpenMenu((prevMenu) => !prevMenu);
 	};
 
+	const handleClose = () => {
+		setOpenMenu(false);
+	};
+
 	return (
 		<motion.nav
 			variants={navVariants}
@@ -45,16 +49,24 @@ const Navbar = () => {
 				text-white`}
 				>
 					<p className="pt-[5px] m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						<a href="#details">Details</a>
+						<a href="#details" onClick={handleClose}>
+							Details
+						</a>
 					</p>
 					<p className="m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						<a href="#values">Values</a>
+						<a href="#values" onClick={handleClose}>
+							Values
+						</a>
 					</p>
 					<p className="m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						<a href="#connect">Connect</a>
+						<a href="#connect" onClick={handleClose}>
+							Connect
+						</a>
 					</p>
 					<p className="m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						<a href="#data">Data</a>
+						<a href="#data" onClick={handleClose}>
+							Data
+						</a>
 					</p>
 				</div>
 			</div>
