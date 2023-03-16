@@ -28,9 +28,9 @@ const Navbar = () => {
 				<img
 					src="/cm-logo.png"
 					alt="M logo"
-					className="w-[34px] h=[34px] rounded-full object-contain"
+					className="w-[34px] h-[34px] rounded-full object-contain"
 				/>
-				<h2 className="font-extrabold text-[24px] leading-[30px] text-white">
+				<h2 className="max-sm:text-center font-extrabold text-[24px] leading-[30px] text-white">
 					A Collective Intelligence Platform
 				</h2>
 				<img

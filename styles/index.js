@@ -14,7 +14,7 @@ const styles = {
 	navPadding: "pt-[98px]",
 
 	openMenu:
-		"glassmorphism rounded-[10px] h-[200px] w-[10em] position: absolute left-90 top-32 z-20 flex flex-col space-y-6",
+		"glassmorphism rounded-[10px] h-[200px] w-[10em]  flex flex-col space-y-6 position: absolute left-[69%] top-[60%] 2xl:left-[70%] lg:left-[85%]  md:left-[85%]  max-sm:left-[62%]  max-sm:top-[60%]  z-[20]",
 	closedMenu: "display: hidden",
 
 	// hero section
