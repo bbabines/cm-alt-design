@@ -10,13 +10,14 @@ import { exploreWorlds } from "../constants";
 const Explore = () => {
 	const [active, setActive] = useState("world-2");
 	return (
-		<section className={`${styles.paddings}`} id="explore">
+		<section className={`${styles.paddings}`}>
+			<a id="details"></a>
 			<motion.div
 				variants={staggerContainer}
 				initial="hidden"
 				whileInView="show"
 				viewport={{ once: false, amount: 0.25 }}
-				className={`${styles.innerWidth} mx-auto flex flex-col`}
+				className={`${styles.innerWidth} mx-auto flex flex-col pt-10`}
 			>
 				<TypingText title={"| Details"} textStyles={"text-center"} />
 				<TitleText

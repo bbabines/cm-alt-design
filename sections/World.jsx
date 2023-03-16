@@ -8,12 +8,13 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 
 const World = () => (
 	<section className={`${styles.paddings} relative z-10`}>
+		<a id="connect"></a>
 		<motion.div
 			variants={staggerContainer}
 			initial="hidden"
 			whileInView="show"
 			viewport={{ once: false, amount: 0.25 }}
-			className={`${styles.innerWidth} mx-auto flex flex-col`}
+			className={`${styles.innerWidth} mx-auto flex flex-col pt-10`}
 		>
 			<TypingText title="| Connect" textStyles="text-center" />
 			<TitleText

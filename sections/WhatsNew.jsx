@@ -9,6 +9,7 @@ import { newFeatures } from "../constants";
 
 const WhatsNew = () => (
 	<section className={`${styles.paddings} relative z-10`}>
+		<a id="values"></a>
 		<motion.div
 			variants={staggerContainer}
 			initial="hidden"

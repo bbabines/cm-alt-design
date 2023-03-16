@@ -34,9 +34,9 @@ const Navbar = () => {
 					A Collective Intelligence Platform
 				</h2>
 				<img
-					src="/menu.svg"
+					src={openMenu ? "/x.webp" : "/menu.svg"}
 					alt="menu"
-					className={`w-[24px] h-[24px] object-contain `}
+					className={`w-[24px] h-[24px] object-contain`}
 					onClick={toggleMenu}
 				/>
 				<div
@@ -45,16 +45,16 @@ const Navbar = () => {
 				text-white`}
 				>
 					<p className="pt-[5px] m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						Details
+						<a href="#details">Details</a>
 					</p>
 					<p className="m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						Values
+						<a href="#values">Values</a>
 					</p>
 					<p className="m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						Connect
+						<a href="#connect">Connect</a>
 					</p>
 					<p className="m-[5px] hover:text-[#49c6dd] focus:ring-2 cursor-pointer text-center">
-						Data
+						<a href="#data">Data</a>
 					</p>
 				</div>
 			</div>
